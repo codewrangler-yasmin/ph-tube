@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./index.html", "./public/js/script.js"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        accent: ['"Roboto", sans-serif'],
+      },
+    },
   },
   plugins: [require("daisyui")],
 };
